@@ -1,4 +1,4 @@
-# flutter_bee_hackapack
+# flutter_bee_honeypot
 
 A new Flutter project.
 
