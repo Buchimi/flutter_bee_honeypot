@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/sign_in.dart';
+import 'package:flutter_bee_honeypot/pages/chat_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,11 +25,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MaterialApp(
-        home: Scaffold(
-            body: SignIn(
-          emailAuthHandler: (email, password) {},
-        )),
+      home: const MaterialApp(
+        home: Scaffold(body: ChatPage()),
       ),
     );
   }

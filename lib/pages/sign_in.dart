@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
-  SignIn(
+  const SignIn(
       {super.key,
       this.googleSignInLogic,
       this.appleSignInLogic,
