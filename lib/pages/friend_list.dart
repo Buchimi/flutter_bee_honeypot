@@ -16,7 +16,8 @@ class FriendList extends StatelessWidget {
           UserTile(),
           UserTile(),
           UserTile(),
-          UserTile()
+          UserTile(),
+
         ];
       } else {
         return List.generate(friends!.length + 1, (index) {

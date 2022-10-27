@@ -21,5 +21,28 @@ class _ChatPageState extends State<ChatPage> {
         RecievedMessageBubble(message: "Yes, of course we will meet tomorrow"),
       ],
     );
+    // Column(
+    //   children: [
+    //     ListView(
+    //       children: const [
+    //         SentMessageBubble(message: "Hello"),
+    //         RecievedMessageBubble(message: "Hi, how are you"),
+    //         SentMessageBubble(message: "I am great how are you doing"),
+    //         RecievedMessageBubble(message: "I am also fine"),
+    //         SentMessageBubble(message: "Can we meet tomorrow?"),
+    //         RecievedMessageBubble(
+    //             message: "Yes, of course we will meet tomorrow"),
+    //       ],
+    //     ),
+    //     // SizedBox(
+    //     //   child: Container(
+    //     //     decoration: const BoxDecoration(color: Colors.grey),
+    //     //     child: const TextField(
+    //     //       decoration: InputDecoration(),
+    //     //     ),
+    //     //   ),
+    //     // )
+    //   ],
+    // );
   }
 }
